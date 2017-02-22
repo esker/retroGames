@@ -43,5 +43,22 @@ app.use((request, response, next) => {
     next();
 });
 
-// API routes, create a game, get all the games
+// API routes
+// Create a game, get all the games
 app.route('/games').post(postGame).get(getGames);
+
+// Get a single game
+app.route('/games/:id').get(getGame).delete(deleteGame);
+
+
+// Route all other requests to the home page
+app.route("*").get((request, response) => {
+    res.sendFile('client/dist/index.html', { root: __dirname });
+});
+
+
+// Tell server to listen on port
+app.listen(port);
+
+// Tell us humans what you're up to...
+console.log(`listening on port ${port}`);

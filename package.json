@@ -1,0 +1,24 @@
+{
+    "name": "retroGames",
+    "version": "0.1",
+    "description": "An test app which will display retro games",
+    "main": "index.js",
+    "author": "Isaac Gibbs",
+    "license": "MIT",
+    "scripts": {
+        "api": "babel-node server.js"
+    },
+    "dependencies": {
+        "body-parser": "^1.16.1",
+        "eslint": "^3.16.0",
+        "express": "^4.14.1",
+        "jshint": "^2.9.4",
+        "mongoose": "^4.8.4",
+        "morgan": "^1.8.1"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.23.0",
+        "babel-core": "^6.23.1",
+        "babel-preset-es2015": "^6.22.0"
+    }
+}

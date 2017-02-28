@@ -2,14 +2,18 @@
  * Globals
  */
 
+
 /* Links */
+
 a,
 a:focus,
 a:hover {
   color: #fff;
 }
 
+
 /* Custom default button */
+
 .btn-default,
 .btn-default:hover,
 .btn-default:focus {
@@ -225,17 +229,22 @@ nav {
   min-height: 75px;
   background-color: initial;
 }
+
 .navbar-brand {
   padding: initial;
 }
+
 .navbar-inverse {
   border-color: transparent;
 }
+
 .view {
     height:100%;
 
     font-size:10px;
 }
+
+
 /*body {
 font-family: PressStartFont;
 
